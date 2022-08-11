@@ -1,0 +1,2 @@
+class ApartmentImage < ApplicationRecord
+end
