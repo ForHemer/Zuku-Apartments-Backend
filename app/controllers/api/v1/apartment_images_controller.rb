@@ -1,4 +1,4 @@
-class ApartmentImagesController < ApplicationController
+class Api::V1::ApartmentImagesController < ApplicationController
   before_action :set_apartment_image, only: %i[show update destroy]
 
   # GET /apartment_images
