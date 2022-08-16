@@ -1,5 +1,4 @@
 class User < ApplicationRecord
-
   devise :database_authenticatable,
          :jwt_authenticatable,
          :registerable,
@@ -8,5 +7,5 @@ class User < ApplicationRecord
   has_many :reservations
 
   validates :name, presence: true
-  validates_uniqueness_of :email 
+  validates_uniqueness_of :email
 end
