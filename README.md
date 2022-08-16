@@ -65,7 +65,7 @@ rails --version
 
 ## Live Demo 🌐
 
-### [Zuku-Apartments]()
+[Zuku-Apartments]()
 
 
 ## Setup
@@ -97,6 +97,7 @@ rails db:setup
 ~~~
 or if you experienced issues, run the following sequence
 ~~~
+rails db:drop
 rails db:create
 rails db:migrate
 rails db:seed
@@ -104,7 +105,6 @@ rails db:seed
 <hr>
 
 ## Usage
-If you got to this point, congratulations! You now have spent 2 hours in order to toy with my app. I appreciate your effort :P
 
 ### Start Server
 The following command should start a server
