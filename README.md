@@ -122,6 +122,12 @@ bundle exec rspec spec
 ~~~
 <hr>
 
+
+# Entity relationship diagram (ERD)
+
+![Screenshot from 2022-08-15 20-54-00](https://user-images.githubusercontent.com/88809610/184770522-a1f43c33-85b7-4ec7-aee6-bc32f06d6d32.png)
+
+
 # Kanban board
 
 Here is the [Kanban board](https://github.com/users/ForHemer/projects/1/views/1) of the project!
