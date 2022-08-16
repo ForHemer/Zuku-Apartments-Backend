@@ -7,7 +7,7 @@ class CreateApartments < ActiveRecord::Migration[7.0]
       t.integer :price
       t.string :city
       t.integer :capacity
-      t.text :decription
+      t.text :description
 
       t.timestamps
     end

@@ -47,6 +47,6 @@ class Api::V1::ApartmentsController < ApplicationController
 
   # Only allow a list of trusted parameters through.
   def apartment_params
-    params.require(:apartment).permit(:name, :address, :image, :price, :city, :capacity, :decription)
+    params.require(:apartment).permit(:name, :address, :image, :price, :city, :capacity, :description)
   end
 end
