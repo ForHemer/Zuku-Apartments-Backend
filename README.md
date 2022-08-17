@@ -65,7 +65,7 @@ rails --version
 
 ## Live Demo 🌐
 
-[Zuku-Apartments]()
+[Zuku-Apartments-Api](https://zuku-apartments-api.herokuapp.com)
 
 
 ## Setup
