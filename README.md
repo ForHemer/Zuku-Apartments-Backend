@@ -130,7 +130,7 @@ bundle exec rspec spec
 
 # Kanban board
 
-Here is the [Kanban board](https://github.com/users/ForHemer/projects/1/views/1) of the project!
+Prerequisites
 
 
 ## Collaborators
