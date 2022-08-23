@@ -19,12 +19,12 @@ RSpec.describe Reservation, type: :model do
 
   describe 'validate data' do
     it 'should have a valid start date' do
-      startdate = nil
+      subject.startDate = nil
       expect(subject).to_not be_nil
     end
 
     it 'should have a valid end date' do
-      enddate = nil
+      subject.endDate = nil
       expect(subject).to_not be_nil
     end
   end
