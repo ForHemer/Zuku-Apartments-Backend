@@ -2,16 +2,19 @@ require 'rails_helper'
 
 RSpec.describe Apartment, type: :model do
   subject do
-    Apartment.create!(name:"Paradise Palms", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In hendrerit gravida rutrum quisque non tellus.", address: "Kampala", city: "Kampala", image: "https://cdn.pixabay.com/photo/2015/08/25/03/27/resort-906104_1280.jpg", price: 2500, capacity: 600)
+    Apartment.create!(name: 'Paradise Palms',
+                      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                      address: 'Kampala',
+                      city: 'Kampala', image: 'https://cdn.pixabay.com/photo/2015/08/25/03/27/resort-906104_1280.jpg', price: 2500, capacity: 600)
   end
-  before { subject.save}
+  before { subject.save }
 
   describe 'validate data' do
     it 'it should have a description' do
       subject.description = nil
       expect(subject).to_not be_nil
     end
-    
+
     it 'it should have an address' do
       subject.address = nil
       expect(subject).to_not be_nil
