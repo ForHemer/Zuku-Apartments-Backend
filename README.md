@@ -130,8 +130,7 @@ bundle exec rspec spec
 
 # Kanban board
 
-Prerequisites
-
+Here is the [initial state](https://github.com/ForHemer/Zuku-Apartments-Backend/issues/16) and [final state](https://github.com/users/ForHemer/projects/1) of the kanban board.
 
 ## Collaborators
 👤 Hemerson Foreste<br>
@@ -142,11 +141,6 @@ LinkedIn: [Hemerson Foreste](https://www.linkedin.com/in/hemerson-foreste/)<br>
 👤 Firdavs Allamurotov<br>
 GitHub: [@fed1k](https://github.com/fed1k)<br>
 LinkedIn: [Firdavs Allamurotov](https://www.linkedin.com/in/firdavs-allamurotov/)<br>
-
-👤 Jason Mwanza<br>
-GitHub: [@blessedjasonmwanza](https://github.com/blessedjasonmwanza)<br>
-Twitter: [@mwanzabj](https://twitter.com/mwanzabj)<br>
-LinkedIn: [Blessed Jason Mwanza](https://www.linkedin.com/in/blessedjasonmwanza/)<br>
 
 👤 Have Samuel Kabareebe<br>
 GitHub: [@Have-Samuel](https://github.com/Have-Samuel)<br>
