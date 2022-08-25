@@ -132,6 +132,8 @@ bundle exec rspec spec
 
 Here is the [initial state](https://github.com/ForHemer/Zuku-Apartments-Backend/issues/16) and [final state](https://github.com/users/ForHemer/projects/1) of the kanban board.
 
+Final number of team members: 3
+
 ## Collaborators
 👤 Hemerson Foreste<br>
 GitHub: [@ForHemer](https://github.com/ForHemer)<br>
